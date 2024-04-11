@@ -21,6 +21,14 @@ class Language {
     }
 }
 
+class LanguageList {
+    languages
+
+    constructor () {
+        this.languages = [];
+    }
+}
+
 
 
 const Languages = [  { code: 'af', name: 'Afrikaans', flag: 'ðŸ‡¿ðŸ‡¦' },
